@@ -7,13 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0AEDDD1E925D2100ADF041 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0AEDD51E925D2100ADF041 /* crypt.h */; };
+		0A0AEDDE1E925D2100ADF041 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AEDD61E925D2100ADF041 /* ioapi.c */; };
+		0A0AEDDF1E925D2100ADF041 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0AEDD71E925D2100ADF041 /* ioapi.h */; };
+		0A0AEDE01E925D2100ADF041 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AEDD91E925D2100ADF041 /* unzip.c */; };
+		0A0AEDE11E925D2100ADF041 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0AEDDA1E925D2100ADF041 /* unzip.h */; };
+		0A0AEDE21E925D2100ADF041 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AEDDB1E925D2100ADF041 /* zip.c */; };
+		0A0AEDE31E925D2100ADF041 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0AEDDC1E925D2100ADF041 /* zip.h */; };
+		0A0AEDEA1E925DD300ADF041 /* libminizip.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0AEDE51E925DD300ADF041 /* libminizip.1.dylib */; };
+		0A0AEDEB1E925DD300ADF041 /* libminizip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0AEDE61E925DD300ADF041 /* libminizip.a */; };
+		0A0AEDEC1E925DD300ADF041 /* libminizip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0AEDE71E925DD300ADF041 /* libminizip.dylib */; };
+		0A0AEDED1E925DD300ADF041 /* minizip.pc in Resources */ = {isa = PBXBuildFile; fileRef = 0A0AEDE91E925DD300ADF041 /* minizip.pc */; };
+		0A0AEDEF1E92629200ADF041 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AEDEE1E92629200ADF041 /* Package.swift */; };
 		0A1B030F1E92554E00869755 /* Mzp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1B030D1E92554E00869755 /* Mzp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A1B03371E92576500869755 /* Mzp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B03361E92576500869755 /* Mzp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A0AEDD51E925D2100ADF041 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		0A0AEDD61E925D2100ADF041 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		0A0AEDD71E925D2100ADF041 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		0A0AEDD81E925D2100ADF041 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		0A0AEDD91E925D2100ADF041 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		0A0AEDDA1E925D2100ADF041 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		0A0AEDDB1E925D2100ADF041 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		0A0AEDDC1E925D2100ADF041 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		0A0AEDE51E925DD300ADF041 /* libminizip.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libminizip.1.dylib; sourceTree = "<group>"; };
+		0A0AEDE61E925DD300ADF041 /* libminizip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libminizip.a; sourceTree = "<group>"; };
+		0A0AEDE71E925DD300ADF041 /* libminizip.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libminizip.dylib; sourceTree = "<group>"; };
+		0A0AEDE91E925DD300ADF041 /* minizip.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = minizip.pc; sourceTree = "<group>"; };
+		0A0AEDEE1E92629200ADF041 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		0A1B030A1E92554D00869755 /* Mzp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mzp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1B030D1E92554E00869755 /* Mzp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mzp.h; sourceTree = "<group>"; };
 		0A1B030E1E92554E00869755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1B03361E92576500869755 /* Mzp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mzp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,15 +48,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0AEDEB1E925DD300ADF041 /* libminizip.a in Frameworks */,
+				0A0AEDEA1E925DD300ADF041 /* libminizip.1.dylib in Frameworks */,
+				0A0AEDEC1E925DD300ADF041 /* libminizip.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A0AEDD41E925D2100ADF041 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				0A0AEDE41E925DD300ADF041 /* lib */,
+				0A0AEDD51E925D2100ADF041 /* crypt.h */,
+				0A0AEDD61E925D2100ADF041 /* ioapi.c */,
+				0A0AEDD71E925D2100ADF041 /* ioapi.h */,
+				0A0AEDD81E925D2100ADF041 /* module.modulemap */,
+				0A0AEDD91E925D2100ADF041 /* unzip.c */,
+				0A0AEDDA1E925D2100ADF041 /* unzip.h */,
+				0A0AEDDB1E925D2100ADF041 /* zip.c */,
+				0A0AEDDC1E925D2100ADF041 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		0A0AEDE41E925DD300ADF041 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0A0AEDE51E925DD300ADF041 /* libminizip.1.dylib */,
+				0A0AEDE61E925DD300ADF041 /* libminizip.a */,
+				0A0AEDE71E925DD300ADF041 /* libminizip.dylib */,
+				0A0AEDE81E925DD300ADF041 /* pkgconfig */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0A0AEDE81E925DD300ADF041 /* pkgconfig */ = {
+			isa = PBXGroup;
+			children = (
+				0A0AEDE91E925DD300ADF041 /* minizip.pc */,
+			);
+			path = pkgconfig;
+			sourceTree = "<group>";
+		};
 		0A1B03001E92554D00869755 = {
 			isa = PBXGroup;
 			children = (
+				0A0AEDEE1E92629200ADF041 /* Package.swift */,
+				0A0AEDD41E925D2100ADF041 /* minizip */,
 				0A1B030C1E92554E00869755 /* Mzp */,
 				0A1B030B1E92554D00869755 /* Products */,
 			);
@@ -48,6 +115,7 @@
 			children = (
 				0A1B030D1E92554E00869755 /* Mzp.h */,
 				0A1B030E1E92554E00869755 /* Info.plist */,
+				0A1B03361E92576500869755 /* Mzp.swift */,
 			);
 			path = Mzp;
 			sourceTree = "<group>";
@@ -59,7 +127,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0AEDDF1E925D2100ADF041 /* ioapi.h in Headers */,
 				0A1B030F1E92554E00869755 /* Mzp.h in Headers */,
+				0A0AEDDD1E925D2100ADF041 /* crypt.h in Headers */,
+				0A0AEDE31E925D2100ADF041 /* zip.h in Headers */,
+				0A0AEDE11E925D2100ADF041 /* unzip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +168,7 @@
 					0A1B03091E92554D00869755 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 4D3JH4LW7G;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -122,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0AEDED1E925DD300ADF041 /* minizip.pc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0AEDE01E925D2100ADF041 /* unzip.c in Sources */,
+				0A0AEDEF1E92629200ADF041 /* Package.swift in Sources */,
+				0A0AEDE21E925D2100ADF041 /* zip.c in Sources */,
+				0A0AEDDE1E925D2100ADF041 /* ioapi.c in Sources */,
+				0A1B03371E92576500869755 /* Mzp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,18 +319,26 @@
 		0A1B03131E92554E00869755 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4D3JH4LW7G;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "${SRCROOT}/minizip/**";
 				INFOPLIST_FILE = Mzp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/minizip/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.3map.ent.Mzp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/minizip/**";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,18 +346,25 @@
 		0A1B03141E92554E00869755 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4D3JH4LW7G;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "${SRCROOT}/minizip/**";
 				INFOPLIST_FILE = Mzp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/minizip/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.3map.ent.Mzp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/minizip/**";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -294,6 +388,7 @@
 				0A1B03141E92554E00869755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double MzpVersionNumber;
 FOUNDATION_EXPORT const unsigned char MzpVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Mzp/PublicHeader.h>
-
-
